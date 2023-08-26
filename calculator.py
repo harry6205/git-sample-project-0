@@ -17,10 +17,13 @@ if o[0] in [ '+','-','*','/' ]:
     elif o[0] == '*':
         out = a * b
     elif o[0] == '/':
-        if (b>=1)
+
+
+        if (b>=1):
             out = a//b
             print("Output : ",out)
         else:
-             print("invalid")
+            print("invalid)
+
 else:
     print("Error : Invalid Operator")
